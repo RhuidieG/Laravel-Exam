@@ -17,6 +17,7 @@
 
         <!-- Scripts -->
         <script src="{{ mix('js/app.js') }}" defer></script>
+        <link rel="stylesheet" href="https://unpkg.com/flowbite@1.4.1/dist/flowbite.min.css" />
     </head>
     <body class="font-sans antialiased">
         <x-jet-banner />
@@ -42,5 +43,6 @@
         @stack('modals')
 
         @livewireScripts
+        <script src="https://unpkg.com/flowbite@1.4.1/dist/flowbite.js"></script>
     </body>
 </html>
